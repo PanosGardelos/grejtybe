@@ -61,7 +61,7 @@
             "maxWebhooks": 100
         },
         "rate": {
-            "enabled": false,
+            "enabled": true,
             "ip": {
                 "count": 500,
                 "window": 5
@@ -114,7 +114,7 @@
     },
     "security": {
         "captcha": {
-            "enabled": false,
+            "enabled": true,
             "service": "hcaptcha",
             "sitekey": "03a5dcea-e437-42d0-ac54-4516c70e1486",
             "secret": "0xE550c95A0b9b1Dc6c77117E0E5b83198500073a6"
