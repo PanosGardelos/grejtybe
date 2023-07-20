@@ -1,0 +1,243 @@
+{
+    "gateway": {
+        "endpointClient": null,
+        "endpointPrivate": null,
+        "endpointPublic": null
+    },
+    "cdn": {
+        "endpointClient": null,
+        "endpointPrivate": null,
+        "endpointPublic": null,
+        "resizeHeightMax": 1000,
+        "resizeWidthMax": 1000,
+        "imagorServerUrl": null
+    },
+    "api": {
+        "defaultVersion": "9",
+        "activeVersions": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "useFosscordEnhancements": true,
+        "endpointPublic": "/api",
+        "useGreekTubeEnhancements": true
+    },
+    "general": {
+        "instanceName": "GreekTube Instance",
+        "instanceDescription": "This is a GreekTube instance made in the pre-release days",
+        "frontPage": null,
+        "tosPage": null,
+        "correspondenceEmail": null,
+        "correspondenceUserID": null,
+        "image": null,
+        "instanceId": "1131495842125987880"
+    },
+    "limits": {
+        "user": {
+            "maxGuilds": 1048576,
+            "maxUsername": 32,
+            "maxFriends": 5000
+        },
+        "guild": {
+            "maxRoles": 1000,
+            "maxEmojis": 2000,
+            "maxMembers": 25000000,
+            "maxChannels": 65535,
+            "maxChannelsInCategory": 65535
+        },
+        "message": {
+            "maxCharacters": 1048576,
+            "maxTTSCharacters": 160,
+            "maxReactions": 2048,
+            "maxAttachmentSize": 1073741824,
+            "maxBulkDelete": 1000,
+            "maxEmbedDownloadSize": 5242880
+        },
+        "channel": {
+            "maxPins": 500,
+            "maxTopic": 1024,
+            "maxWebhooks": 100
+        },
+        "rate": {
+            "enabled": false,
+            "ip": {
+                "count": 500,
+                "window": 5
+            },
+            "global": {
+                "count": 250,
+                "window": 5
+            },
+            "error": {
+                "count": 10,
+                "window": 5
+            },
+            "routes": {
+                "guild": {
+                    "count": 5,
+                    "window": 5
+                },
+                "webhook": {
+                    "count": 10,
+                    "window": 5
+                },
+                "channel": {
+                    "count": 10,
+                    "window": 5
+                },
+                "auth": {
+                    "login": {
+                        "count": 5,
+                        "window": 60
+                    },
+                    "register": {
+                        "count": 2,
+                        "window": 43200
+                    }
+                }
+            }
+        },
+        "absoluteRate": {
+            "register": {
+                "limit": 25,
+                "window": 3600000,
+                "enabled": true
+            },
+            "sendMessage": {
+                "limit": 200,
+                "window": 60000,
+                "enabled": true
+            }
+        }
+    },
+    "security": {
+        "captcha": {
+            "enabled": false,
+            "service": "hcaptcha",
+            "sitekey": "03a5dcea-e437-42d0-ac54-4516c70e1486",
+            "secret": "0xE550c95A0b9b1Dc6c77117E0E5b83198500073a6"
+        },
+        "twoFactor": {
+            "generateBackupCodes": true
+        },
+        "autoUpdate": true,
+        "requestSignature": "Y43+qaBT+J+6wcPhDz8Wq5NrIQxzxCiZwnARY0sM6gQ=",
+        "jwtSecret": "LoCud1fng4t67XhIzHrBUohiL8nkSO8a/g4fwJhaAx1tvcf6PaEnPy+fC1G5z8ht/kEKEkF0KGBx5gU974DefxN1tNqFAZayP+mhe7y+AI9OQ1TLkt2idSHkHGSQfuIbWZhoS9WlbpRtrtOalYy4NhD/PpQKMFSRorhwqY0tS9FZsvH0tDoXwgkFVJgWQXk8kuvHRnC263/EwUqEezPhnF36/lvkNB3acARLL+o1n13wwQuW/1sw0VzvzXlVVmePoU7cOf3PCHA+RG/yuBsQwu9Z01A8FtMFJOULcOvoK1QzB5LF8svZ6SR1mfopzWEKAmHOLFqouHlCUjEjIS5dxA==",
+        "forwadedFor": null,
+        "ipdataApiKey": "eca677b284b3bac29eb72f5e496aa9047f26543605efe99ff2ce35c9",
+        "mfaBackupCodeCount": 10,
+        "statsWorldReadable": true,
+        "defaultRegistrationTokenExpiration": 604800000
+    },
+    "login": {
+        "requireCaptcha": true
+    },
+    "register": {
+        "email": {
+            "required": false,
+            "allowlist": false,
+            "blocklist": true,
+            "domains": []
+        },
+        "dateOfBirth": {
+            "required": true,
+            "minimum": 13
+        },
+        "password": {
+            "required": true,
+            "minLength": 8,
+            "minNumbers": 2,
+            "minUpperCase": 2,
+            "minSymbols": 0
+        },
+        "disabled": false,
+        "requireCaptcha": true,
+        "requireInvite": false,
+        "guestsRequireInvite": true,
+        "allowNewRegistration": true,
+        "allowMultipleAccounts": true,
+        "blockProxies": true,
+        "incrementingDiscriminators": false,
+        "defaultRights": "312119568366592"
+    },
+    "regions": {
+        "default": "GreekTube",
+        "useDefaultAsOptimal": true,
+        "available": [
+            {
+                "id": "GreekTube",
+                "name": "GreekTube",
+                "endpoint": "127.0.0.1:3004",
+                "vip": false,
+                "custom": false,
+                "deprecated": false
+            }
+        ]
+    },
+    "guild": {
+        "discovery": {
+            "showAllGuilds": false,
+            "useRecommendation": true,
+            "offset": 0,
+            "limit": 24
+        },
+        "autoJoin": {
+            "enabled": true,
+            "guilds": [],
+            "canLeave": true
+        },
+        "defaultFeatures": []
+    },
+    "gif": {
+        "enabled": true,
+        "provider": "tenor",
+        "apiKey": "AIzaSyD2h_s74NcS8-JMpSKhM5u1tTPUlf-o2iU"
+    },
+    "rabbitmq": {
+        "host": null
+    },
+    "kafka": {
+        "brokers": null
+    },
+    "templates": {
+        "enabled": true,
+        "allowTemplateCreation": true,
+        "allowDiscordTemplates": true,
+        "allowRaws": true
+    },
+    "client": {
+        "releases": {
+            "useLocalRelease": false,
+            "upstreamVersion": "0.0.264"
+        },
+        "useTestClient": true
+    },
+    "metrics": {
+        "timeout": 30000
+    },
+    "sentry": {
+        "enabled": false,
+        "endpoint": "https://05e8e3d005f34b7d97e920ae5870a5e5@sentry.thearcanebrony.net/6",
+        "traceSampleRate": 1,
+        "environment": "DESKTOP-R1R1P6L"
+    },
+    "defaults": {
+        "guild": {
+            "maxPresences": 250000,
+            "maxVideoChannelUsers": 200,
+            "afkTimeout": 300,
+            "defaultMessageNotifications": 1,
+            "explicitContentFilter": 0
+        },
+        "user": {
+            "premium": true,
+            "premiumType": 2,
+            "verified": true
+        }
+    },
+    "external": {
+        "twitter": null
+    }
+}
