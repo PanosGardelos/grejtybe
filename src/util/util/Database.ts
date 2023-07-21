@@ -32,7 +32,7 @@ const DataSourceOptions = new DataSource({
 	charset: "utf8mb4",
 	ssl: {
 		rejectUnauthorized: false,
-	  },
+	},
 	url: isSqlite ? undefined : dbConnectionString,
 	database: isSqlite ? dbConnectionString : undefined,
 	entities: [path.join(__dirname, "..", "entities", "*.js")],
