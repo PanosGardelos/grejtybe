@@ -2,8 +2,8 @@
 
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.initRateLimits = void 0;
-const api_1 = require("@fosscord/api");
-const util_1 = require("@fosscord/util");
+const api_1 = require("@greektube/api");
+const util_1 = require("@greektube/util");
 const Authentication_1 = require("./Authentication");
 const Cache = new Map();
 const EventRateLimit = "RATELIMIT";

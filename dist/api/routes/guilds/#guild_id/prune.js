@@ -19,9 +19,9 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.inactiveMembers = void 0;
 const express_1 = require("express");
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 const typeorm_1 = require("typeorm");
-const api_1 = require("@fosscord/api");
+const api_1 = require("@greektube/api");
 const router = (0, express_1.Router)();
 //Returns all inactive members, respecting role hierarchy
 const inactiveMembers = async (guild_id, user_id, days, roles = []) => {

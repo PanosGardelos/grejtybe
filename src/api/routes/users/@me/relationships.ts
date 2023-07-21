@@ -9,11 +9,11 @@ import {
 	emitEvent,
 	Relationship,
 	Config,
-} from "@fosscord/util";
+} from "@greektube/util";
 import { Router, Response, Request } from "express";
 import { HTTPError } from "lambert-server";
-import { DiscordApiErrors } from "@fosscord/util";
-import { route } from "@fosscord/api";
+import { DiscordApiErrors } from "@greektube/util";
+import { route } from "@greektube/api";
 
 const router = Router();
 

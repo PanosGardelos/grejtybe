@@ -1,6 +1,6 @@
 
 
-import { CLOSECODES, Send, setHeartbeat, WebSocket } from "@fosscord/gateway";
+import { CLOSECODES, Send, setHeartbeat, WebSocket } from "@greektube/gateway";
 import { IncomingMessage } from "http";
 import { URL } from "url";
 import WS from "ws";

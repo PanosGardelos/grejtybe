@@ -3,8 +3,8 @@
 import { Router, Response, Request } from "express";
 import fetch from "node-fetch";
 import ProxyAgent from "proxy-agent";
-import { route } from "@fosscord/api";
-import { Config } from "@fosscord/util";
+import { route } from "@greektube/api";
+import { Config } from "@greektube/util";
 import { HTTPError } from "lambert-server";
 
 const router = Router();

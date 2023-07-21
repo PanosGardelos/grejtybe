@@ -1,6 +1,6 @@
 
 
-import { Payload, WebSocket } from "@fosscord/gateway";
+import { Payload, WebSocket } from "@greektube/gateway";
 import { genVoiceToken } from "../util/SessionUtils";
 import { check } from "./instanceOf";
 import {
@@ -13,7 +13,7 @@ import {
 	VoiceStateUpdateEvent,
 	VoiceStateUpdateSchema,
 	Region,
-} from "@fosscord/util";
+} from "@greektube/util";
 // TODO: check if a voice server is setup
 
 // Notice: Bot users respect the voice channel's user limit, if set.

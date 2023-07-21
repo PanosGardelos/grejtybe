@@ -1,10 +1,10 @@
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 const express_1 = require("express");
 const lambert_server_1 = require("lambert-server");
-const api_1 = require("@fosscord/api");
+const api_1 = require("@greektube/api");
 const router = (0, express_1.Router)();
 // TODO: Only permissions your bot has in the guild or channel can be allowed/denied (unless your bot has a MANAGE_ROLES overwrite in the channel)
 router.put("/:overwrite_id", (0, api_1.route)({

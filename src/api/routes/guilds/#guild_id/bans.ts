@@ -11,9 +11,9 @@ import {
 	Member,
 	BanRegistrySchema,
 	BanModeratorSchema,
-} from "@fosscord/util";
+} from "@greektube/util";
 import { HTTPError } from "lambert-server";
-import { getIpAdress, route } from "@fosscord/api";
+import { getIpAdress, route } from "@greektube/api";
 
 const router: Router = Router();
 

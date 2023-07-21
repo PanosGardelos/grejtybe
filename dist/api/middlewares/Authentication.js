@@ -4,7 +4,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.Authentication = exports.API_PREFIX_TRAILING_SLASH = exports.API_PREFIX = exports.NO_AUTHORIZATION_ROUTES = void 0;
 const tslib_1 = require("tslib");
 const lambert_server_1 = require("lambert-server");
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 const Sentry = tslib_1.__importStar(require("@sentry/node"));
 exports.NO_AUTHORIZATION_ROUTES = [
     // Authentication routes

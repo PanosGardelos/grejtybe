@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.EmbedHandlers = exports.getMetaDescriptions = exports.getProxyUrl = exports.DEFAULT_FETCH_OPTIONS = void 0;
 const tslib_1 = require("tslib");
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 const node_fetch_1 = tslib_1.__importDefault(require("node-fetch"));
 const cheerio = tslib_1.__importStar(require("cheerio"));
 const probe_image_size_1 = tslib_1.__importDefault(require("probe-image-size"));

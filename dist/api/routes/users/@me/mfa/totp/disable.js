@@ -2,10 +2,10 @@
 
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = require("express");
-const api_1 = require("@fosscord/api");
+const api_1 = require("@greektube/api");
 const node_2fa_1 = require("node-2fa");
 const lambert_server_1 = require("lambert-server");
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 const router = (0, express_1.Router)();
 router.post("/", (0, api_1.route)({ body: "TotpDisableSchema" }), async (req, res) => {
     const body = req.body;

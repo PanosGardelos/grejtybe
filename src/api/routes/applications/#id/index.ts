@@ -1,12 +1,12 @@
 
 
 import { Request, Response, Router } from "express";
-import { route } from "@fosscord/api";
+import { route } from "@greektube/api";
 import {
 	Application,
 	DiscordApiErrors,
 	ApplicationModifySchema,
-} from "@fosscord/util";
+} from "@greektube/util";
 import { verifyToken } from "node-2fa";
 import { HTTPError } from "lambert-server";
 

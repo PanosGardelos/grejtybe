@@ -3,10 +3,10 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Message = void 0;
 const tslib_1 = require("tslib");
-const gateway_1 = require("@fosscord/gateway");
+const gateway_1 = require("@greektube/gateway");
 const opcodes_1 = tslib_1.__importDefault(require("../opcodes"));
 const instanceOf_1 = require("../opcodes/instanceOf");
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 const Sentry = tslib_1.__importStar(require("@sentry/node"));
 const json_bigint_1 = tslib_1.__importDefault(require("json-bigint"));
 const path_1 = tslib_1.__importDefault(require("path"));

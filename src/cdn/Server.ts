@@ -1,7 +1,7 @@
 
 
 import { Server, ServerOptions } from "lambert-server";
-import { Config, initDatabase, registerRoutes, Sentry } from "@fosscord/util";
+import { Config, initDatabase, registerRoutes, Sentry } from "@greektube/util";
 import path from "path";
 import avatarsRoute from "./routes/avatars";
 import guildProfilesRoute from "./routes/guild-profiles";

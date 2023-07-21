@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Connection = void 0;
-const gateway_1 = require("@fosscord/gateway");
+const gateway_1 = require("@greektube/gateway");
 const Send_1 = require("../util/Send");
 const Constants_1 = require("../util/Constants");
 const Heartbeat_1 = require("../util/Heartbeat");
@@ -10,7 +10,7 @@ const Close_1 = require("./Close");
 const Message_1 = require("./Message");
 const fast_zlib_1 = require("fast-zlib");
 const url_1 = require("url");
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 let erlpack = null;
 try {
     erlpack = require("erlpack");

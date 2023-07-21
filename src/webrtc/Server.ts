@@ -1,6 +1,6 @@
 
 
-import { closeDatabase, Config, initDatabase, initEvent } from "@fosscord/util";
+import { closeDatabase, Config, initDatabase, initEvent } from "@greektube/util";
 import dotenv from "dotenv";
 import http from "http";
 import ws from "ws";

@@ -1,13 +1,13 @@
 
 
-import { WebSocket, Payload } from "@fosscord/gateway";
+import { WebSocket, Payload } from "@greektube/gateway";
 import {
 	emitEvent,
 	PresenceUpdateEvent,
 	Session,
 	User,
 	ActivitySchema,
-} from "@fosscord/util";
+} from "@greektube/util";
 import { check } from "./instanceOf";
 
 export async function onPresenceUpdate(this: WebSocket, { d }: Payload) {

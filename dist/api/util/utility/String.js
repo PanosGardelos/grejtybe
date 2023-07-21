@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.generateCode = exports.checkLength = void 0;
 const Base64_1 = require("./Base64");
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 function checkLength(str, min, max, key, req) {
     if (str.length < min || str.length > max) {
         throw (0, util_1.FieldErrors)({

@@ -9,7 +9,7 @@ import {
 	initEvent,
 	Sentry,
 	WebAuthn,
-} from "@fosscord/util";
+} from "@greektube/util";
 import { ErrorHandler } from "./middlewares/ErrorHandler";
 import { BodyParser } from "./middlewares/BodyParser";
 import { Router, Request, Response } from "express";
@@ -19,7 +19,7 @@ import TestClient from "./middlewares/TestClient";
 import { initTranslation } from "./middlewares/Translation";
 import morgan from "morgan";
 import { initInstance } from "./util/handlers/Instance";
-import { registerRoutes } from "@fosscord/util";
+import { registerRoutes } from "@greektube/util";
 import { red } from "picocolors";
 
 export type FosscordServerOptions = ServerOptions;

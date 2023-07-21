@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Close = void 0;
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 async function Close(code, reason) {
     console.log("[WebSocket] closed", code, reason.toString());
     if (this.heartbeatTimeout)

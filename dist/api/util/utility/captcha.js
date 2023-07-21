@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.verifyCaptcha = void 0;
 const tslib_1 = require("tslib");
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 const node_fetch_1 = tslib_1.__importDefault(require("node-fetch"));
 const verifyEndpoints = {
     hcaptcha: "https://hcaptcha.com/siteverify",

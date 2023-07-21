@@ -1,6 +1,6 @@
 
 
-import { Activity, Status } from "@fosscord/util";
+import { Activity, Status } from "@greektube/util";
 
 export const ActivitySchema = {
 	$afk: Boolean,

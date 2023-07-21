@@ -3,12 +3,12 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.sendMessage = exports.postHandleMessage = exports.handleMessage = void 0;
 const tslib_1 = require("tslib");
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 const lambert_server_1 = require("lambert-server");
 const typeorm_1 = require("typeorm");
-const api_1 = require("@fosscord/api");
+const api_1 = require("@greektube/api");
 const Sentry = tslib_1.__importStar(require("@sentry/node"));
-const IMessageInterceptor_1 = require("@fosscord/util/message_interceptors/IMessageInterceptor");
+const IMessageInterceptor_1 = require("@greektube/util/message_interceptors/IMessageInterceptor");
 const PluralCommandInterceptor_1 = require("../../../util/message_interceptors/plural_tooling/PluralCommandInterceptor");
 const allow_empty = false;
 // TODO: check webhook, application, system author, stickers

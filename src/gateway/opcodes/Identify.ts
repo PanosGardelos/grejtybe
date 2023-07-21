@@ -1,6 +1,6 @@
 
 
-import { WebSocket, Payload } from "@fosscord/gateway";
+import { WebSocket, Payload } from "@greektube/gateway";
 import {
 	checkToken,
 	Intents,
@@ -27,14 +27,14 @@ import {
 	ReadyGuildDTO,
 	Guild,
 	UserTokenData,
-} from "@fosscord/util";
+} from "@greektube/util";
 import { Send } from "../util/Send";
 import { CLOSECODES, OPCODES } from "../util/Constants";
 import { setupListener } from "../listener/listener";
 // import experiments from "./experiments.json";
 const experiments: unknown[] = [];
 import { check } from "./instanceOf";
-import { Recipient } from "@fosscord/util";
+import { Recipient } from "@greektube/util";
 
 // TODO: user sharding
 // TODO: check privileged intents, if defined in the config

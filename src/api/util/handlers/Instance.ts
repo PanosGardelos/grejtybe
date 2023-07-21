@@ -1,6 +1,6 @@
 
 
-import { Session } from "@fosscord/util";
+import { Session } from "@greektube/util";
 
 export async function initInstance() {
 	// TODO: clean up database and delete tombstone data

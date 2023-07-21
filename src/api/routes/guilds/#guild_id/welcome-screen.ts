@@ -1,9 +1,9 @@
 
 
 import { Request, Response, Router } from "express";
-import { Guild, Member, GuildUpdateWelcomeScreenSchema } from "@fosscord/util";
+import { Guild, Member, GuildUpdateWelcomeScreenSchema } from "@greektube/util";
 import { HTTPError } from "lambert-server";
-import { route } from "@fosscord/api";
+import { route } from "@greektube/api";
 
 const router: Router = Router();
 

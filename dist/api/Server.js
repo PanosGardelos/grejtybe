@@ -6,7 +6,7 @@ const tslib_1 = require("tslib");
 require("missing-native-js-functions");
 const lambert_server_1 = require("lambert-server");
 const middlewares_1 = require("./middlewares/");
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 const ErrorHandler_1 = require("./middlewares/ErrorHandler");
 const BodyParser_1 = require("./middlewares/BodyParser");
 const express_1 = require("express");
@@ -16,7 +16,7 @@ const TestClient_1 = tslib_1.__importDefault(require("./middlewares/TestClient")
 const Translation_1 = require("./middlewares/Translation");
 const morgan_1 = tslib_1.__importDefault(require("morgan"));
 const Instance_1 = require("./util/handlers/Instance");
-const util_2 = require("@fosscord/util");
+const util_2 = require("@greektube/util");
 const picocolors_1 = require("picocolors");
 class FosscordServer extends lambert_server_1.Server {
     constructor(opts) {

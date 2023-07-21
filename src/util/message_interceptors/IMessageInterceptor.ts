@@ -1,4 +1,4 @@
-import { Message, MessageOptions } from "@fosscord/util";
+import { Message, MessageOptions } from "@greektube/util";
 
 export interface IMessageInterceptor {
     execute(ctx: MessageInterceptorContext): Promise<MessageInterceptResult>;

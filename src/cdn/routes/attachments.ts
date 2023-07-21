@@ -1,7 +1,7 @@
 
 
 import { Router, Response, Request } from "express";
-import { Config, Snowflake } from "@fosscord/util";
+import { Config, Snowflake } from "@greektube/util";
 import { storage } from "../util/Storage";
 import FileType from "file-type";
 import { HTTPError } from "lambert-server";

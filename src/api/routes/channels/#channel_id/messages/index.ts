@@ -20,9 +20,9 @@ import {
 	Rights,
 	Reaction,
 	User,
-} from "@fosscord/util";
+} from "@greektube/util";
 import { HTTPError } from "lambert-server";
-import { handleMessage, postHandleMessage, route } from "@fosscord/api";
+import { handleMessage, postHandleMessage, route } from "@greektube/api";
 import multer from "multer";
 import { FindManyOptions, FindOperator, LessThan, MoreThan } from "typeorm";
 import { URL } from "url";

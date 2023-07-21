@@ -1,7 +1,7 @@
 
 
 import { Router, Request, Response } from "express";
-import { route } from "@fosscord/api";
+import { route } from "@greektube/api";
 import { verifyToken } from "node-2fa";
 import { HTTPError } from "lambert-server";
 import {
@@ -9,7 +9,7 @@ import {
 	generateToken,
 	BackupCode,
 	TotpDisableSchema,
-} from "@fosscord/util";
+} from "@greektube/util";
 
 const router = Router();
 

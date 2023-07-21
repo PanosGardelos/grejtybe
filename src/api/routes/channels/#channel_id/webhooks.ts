@@ -1,7 +1,7 @@
 
 
 import { Router, Response, Request } from "express";
-import { route } from "@fosscord/api";
+import { route } from "@greektube/api";
 import {
 	Channel,
 	Config,
@@ -11,10 +11,10 @@ import {
 	Webhook,
 	WebhookCreateSchema,
 	WebhookType,
-} from "@fosscord/util";
+} from "@greektube/util";
 import { HTTPError } from "lambert-server";
 import { isTextChannel } from "./messages/index";
-import { DiscordApiErrors } from "@fosscord/util";
+import { DiscordApiErrors } from "@greektube/util";
 import crypto from "crypto";
 
 const router: Router = Router();

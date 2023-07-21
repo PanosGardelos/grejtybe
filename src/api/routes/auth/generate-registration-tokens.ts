@@ -1,7 +1,7 @@
 
 
-import { route, random } from "@fosscord/api";
-import { Config, ValidRegistrationToken } from "@fosscord/util";
+import { route, random } from "@greektube/api";
+import { Config, ValidRegistrationToken } from "@greektube/util";
 import { Request, Response, Router } from "express";
 
 const router: Router = Router();

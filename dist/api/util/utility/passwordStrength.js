@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.checkPassword = void 0;
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 require("missing-native-js-functions");
 const reNUMBER = /[0-9]/g;
 const reUPPERCASELETTER = /[A-Z]/g;

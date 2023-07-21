@@ -1,8 +1,8 @@
 
 
-import { Payload, Send, WebSocket } from "@fosscord/gateway";
-import { validateSchema, VoiceVideoSchema } from "@fosscord/util";
-import { channels, getClients, VoiceOPCodes } from "@fosscord/webrtc";
+import { Payload, Send, WebSocket } from "@greektube/gateway";
+import { validateSchema, VoiceVideoSchema } from "@greektube/util";
+import { channels, getClients, VoiceOPCodes } from "@greektube/webrtc";
 import { IncomingStreamTrack, SSRCs } from "medooze-media-server";
 import SemanticSDP from "semantic-sdp";
 

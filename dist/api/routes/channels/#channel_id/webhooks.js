@@ -3,11 +3,11 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
 const express_1 = require("express");
-const api_1 = require("@fosscord/api");
-const util_1 = require("@fosscord/util");
+const api_1 = require("@greektube/api");
+const util_1 = require("@greektube/util");
 const lambert_server_1 = require("lambert-server");
 const index_1 = require("./messages/index");
-const util_2 = require("@fosscord/util");
+const util_2 = require("@greektube/util");
 const crypto_1 = tslib_1.__importDefault(require("crypto"));
 const router = (0, express_1.Router)();
 //TODO: implement webhooks

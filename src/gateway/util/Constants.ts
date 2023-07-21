@@ -1,6 +1,6 @@
 
 
-// import { VoiceOPCodes } from "@fosscord/webrtc";
+// import { VoiceOPCodes } from "@greektube/webrtc";
 
 export enum OPCODES {
 	Dispatch = 0,

@@ -1,6 +1,6 @@
 
 
-import { Config } from "@fosscord/util";
+import { Config } from "@greektube/util";
 import fetch from "node-fetch";
 
 export interface hcaptchaResponse {

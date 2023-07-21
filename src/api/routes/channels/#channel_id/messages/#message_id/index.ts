@@ -15,11 +15,11 @@ import {
 	uploadFile,
 	MessageCreateSchema,
 	MessageEditSchema,
-} from "@fosscord/util";
+} from "@greektube/util";
 import { Router, Response, Request } from "express";
 import multer from "multer";
-import { route } from "@fosscord/api";
-import { handleMessage, postHandleMessage } from "@fosscord/api";
+import { route } from "@greektube/api";
+import { handleMessage, postHandleMessage } from "@greektube/api";
 import { HTTPError } from "lambert-server";
 
 const router = Router();

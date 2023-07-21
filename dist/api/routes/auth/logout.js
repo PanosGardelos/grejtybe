@@ -1,7 +1,7 @@
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-const api_1 = require("@fosscord/api");
+const api_1 = require("@greektube/api");
 const express_1 = require("express");
 const router = (0, express_1.Router)();
 exports.default = router;

@@ -6,8 +6,8 @@ const tslib_1 = require("tslib");
 const express_1 = require("express");
 const node_fetch_1 = tslib_1.__importDefault(require("node-fetch"));
 const proxy_agent_1 = tslib_1.__importDefault(require("proxy-agent"));
-const api_1 = require("@fosscord/api");
-const util_1 = require("@fosscord/util");
+const api_1 = require("@greektube/api");
+const util_1 = require("@greektube/util");
 const lambert_server_1 = require("lambert-server");
 const router = (0, express_1.Router)();
 // TODO: Move somewhere else

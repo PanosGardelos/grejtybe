@@ -4,7 +4,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.onVoiceStateUpdate = void 0;
 const SessionUtils_1 = require("../util/SessionUtils");
 const instanceOf_1 = require("./instanceOf");
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 // TODO: check if a voice server is setup
 // Notice: Bot users respect the voice channel's user limit, if set.
 // When the voice channel is full, you will not receive the Voice State Update or Voice Server Update events in response to your own Voice State Update.

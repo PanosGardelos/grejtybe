@@ -1,6 +1,6 @@
 
 
-import { route } from "@fosscord/api";
+import { route } from "@greektube/api";
 import {
 	Config,
 	getRights,
@@ -8,7 +8,7 @@ import {
 	Member,
 	Message,
 	User,
-} from "@fosscord/util";
+} from "@greektube/util";
 import { Request, Response, Router } from "express";
 const router = Router();
 

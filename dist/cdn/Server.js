@@ -4,7 +4,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.CDNServer = void 0;
 const tslib_1 = require("tslib");
 const lambert_server_1 = require("lambert-server");
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 const path_1 = tslib_1.__importDefault(require("path"));
 const avatars_1 = tslib_1.__importDefault(require("./routes/avatars"));
 const guild_profiles_1 = tslib_1.__importDefault(require("./routes/guild-profiles"));

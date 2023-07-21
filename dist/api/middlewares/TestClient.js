@@ -7,7 +7,7 @@ const fs_1 = tslib_1.__importDefault(require("fs"));
 const path_1 = tslib_1.__importDefault(require("path"));
 const node_fetch_1 = tslib_1.__importDefault(require("node-fetch"));
 const proxy_agent_1 = tslib_1.__importDefault(require("proxy-agent"));
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 const ASSET_FOLDER_PATH = path_1.default.join(__dirname, "..", "..", "..", "assets");
 let HAS_SHOWN_CACHE_WARNING = false;
 function TestClient(app) {

@@ -1,6 +1,6 @@
 
 
-import { route } from "@fosscord/api";
+import { route } from "@greektube/api";
 import {
 	CreateWebAuthnCredentialSchema,
 	DiscordApiErrors,
@@ -12,7 +12,7 @@ import {
 	verifyWebAuthnToken,
 	WebAuthn,
 	WebAuthnPostSchema,
-} from "@fosscord/util";
+} from "@greektube/util";
 import bcrypt from "bcrypt";
 import { Request, Response, Router } from "express";
 import { ExpectedAttestationResult } from "fido2-lib";

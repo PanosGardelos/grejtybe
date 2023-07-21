@@ -1,9 +1,9 @@
 
 
-import { Intents, ListenEventOpts, Permissions } from "@fosscord/util";
+import { Intents, ListenEventOpts, Permissions } from "@greektube/util";
 import WS from "ws";
 import { Deflate, Inflate } from "fast-zlib";
-// import { Client } from "@fosscord/webrtc";
+// import { Client } from "@greektube/webrtc";
 
 export interface WebSocket extends WS {
 	version: number;

@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.onPresenceUpdate = void 0;
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 const instanceOf_1 = require("./instanceOf");
 async function onPresenceUpdate({ d }) {
     instanceOf_1.check.call(this, util_1.ActivitySchema, d);

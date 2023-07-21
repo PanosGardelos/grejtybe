@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.PluralCommandInterceptor = void 0;
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 class PluralCommandInterceptor {
     async execute(ctx) {
         let result = new util_1.MessageInterceptResult();

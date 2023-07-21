@@ -24,7 +24,7 @@ import {
 	UserSettings,
 	IReadyGuildDTO,
 	ReadState,
-} from "@fosscord/util";
+} from "@greektube/util";
 
 export interface Event {
 	guild_id?: string;

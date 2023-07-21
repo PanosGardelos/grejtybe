@@ -1,8 +1,8 @@
 
 
 import { Request, Response, Router } from "express";
-import { Guild, WidgetModifySchema } from "@fosscord/util";
-import { route } from "@fosscord/api";
+import { Guild, WidgetModifySchema } from "@greektube/util";
+import { route } from "@greektube/api";
 
 const router: Router = Router();
 

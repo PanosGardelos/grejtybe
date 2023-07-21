@@ -1,6 +1,6 @@
 
 
-import { Embed } from "@fosscord/util";
+import { Embed } from "@greektube/util";
 
 type Attachment = {
 	id: string;

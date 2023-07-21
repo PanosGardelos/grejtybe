@@ -6,7 +6,7 @@ const tslib_1 = require("tslib");
 require("missing-native-js-functions");
 const dotenv_1 = tslib_1.__importDefault(require("dotenv"));
 dotenv_1.default.config();
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 const ws_1 = tslib_1.__importDefault(require("ws"));
 const Connection_1 = require("./events/Connection");
 const http_1 = tslib_1.__importDefault(require("http"));

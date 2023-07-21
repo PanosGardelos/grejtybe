@@ -13,8 +13,8 @@ import {
 	RoleModifySchema,
 	RolePositionUpdateSchema,
 	Snowflake,
-} from "@fosscord/util";
-import { route } from "@fosscord/api";
+} from "@greektube/util";
+import { route } from "@greektube/api";
 import { Not } from "typeorm";
 
 const router: Router = Router();

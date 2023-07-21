@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.initInstance = void 0;
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 async function initInstance() {
     // TODO: clean up database and delete tombstone data
     // TODO: set first user as instance administrator/or generate one if none exists and output it in the terminal

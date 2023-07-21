@@ -11,8 +11,8 @@ import {
 	PrivateUserProjection,
 	emitEvent,
 	UserUpdateEvent,
-} from "@fosscord/util";
-import { route } from "@fosscord/api";
+} from "@greektube/util";
+import { route } from "@greektube/api";
 
 const router: Router = Router();
 

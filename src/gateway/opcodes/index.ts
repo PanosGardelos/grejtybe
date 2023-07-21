@@ -1,6 +1,6 @@
 
 
-import { WebSocket, Payload } from "@fosscord/gateway";
+import { WebSocket, Payload } from "@greektube/gateway";
 import { onHeartbeat } from "./Heartbeat";
 import { onIdentify } from "./Identify";
 import { onLazyRequest } from "./LazyRequest";

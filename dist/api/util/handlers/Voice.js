@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getVoiceRegions = void 0;
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 const ipAddress_1 = require("../utility/ipAddress");
 async function getVoiceRegions(ipAddress, vip) {
     const regions = util_1.Config.get().regions;

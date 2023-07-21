@@ -1,9 +1,9 @@
 
 
-import { emitEvent, GuildDeleteEvent, Guild } from "@fosscord/util";
+import { emitEvent, GuildDeleteEvent, Guild } from "@greektube/util";
 import { Router, Request, Response } from "express";
 import { HTTPError } from "lambert-server";
-import { route } from "@fosscord/api";
+import { route } from "@greektube/api";
 
 const router = Router();
 

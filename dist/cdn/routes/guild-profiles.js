@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 const crypto_1 = tslib_1.__importDefault(require("crypto"));
 const express_1 = require("express");
 const file_type_1 = tslib_1.__importDefault(require("file-type"));

@@ -2,8 +2,8 @@
 
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.onLazyRequest = void 0;
-const util_1 = require("@fosscord/util");
-const gateway_1 = require("@fosscord/gateway");
+const util_1 = require("@greektube/util");
+const gateway_1 = require("@greektube/gateway");
 const instanceOf_1 = require("./instanceOf");
 // TODO: only show roles/members that have access to this channel
 // TODO: config: to list all members (even those who are offline) sorted by role, or just those who are online

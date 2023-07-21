@@ -1,12 +1,12 @@
 
 
-import { CLOSECODES, Payload, Send, WebSocket } from "@fosscord/gateway";
+import { CLOSECODES, Payload, Send, WebSocket } from "@greektube/gateway";
 import {
 	validateSchema,
 	VoiceIdentifySchema,
 	VoiceState,
-} from "@fosscord/util";
-import { endpoint, getClients, VoiceOPCodes, PublicIP } from "@fosscord/webrtc";
+} from "@greektube/util";
+import { endpoint, getClients, VoiceOPCodes, PublicIP } from "@greektube/webrtc";
 import SemanticSDP from "semantic-sdp";
 const defaultSDP = require("./sdp.json");
 

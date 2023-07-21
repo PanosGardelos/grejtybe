@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.distanceBetweenLocations = exports.getIpAdress = exports.isProxy = exports.IPAnalysis = void 0;
 const tslib_1 = require("tslib");
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 // use ipdata package instead of simple fetch because of integrated caching
 const node_fetch_1 = tslib_1.__importDefault(require("node-fetch"));
 const exampleData = {

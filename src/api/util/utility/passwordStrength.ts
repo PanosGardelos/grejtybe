@@ -1,6 +1,6 @@
 
 
-import { Config } from "@fosscord/util";
+import { Config } from "@greektube/util";
 import "missing-native-js-functions";
 
 const reNUMBER = /[0-9]/g;

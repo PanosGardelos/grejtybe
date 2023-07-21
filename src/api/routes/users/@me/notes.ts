@@ -1,8 +1,8 @@
 
 
 import { Request, Response, Router } from "express";
-import { route } from "@fosscord/api";
-import { User, Note, emitEvent, Snowflake } from "@fosscord/util";
+import { route } from "@greektube/api";
+import { User, Note, emitEvent, Snowflake } from "@greektube/util";
 
 const router: Router = Router();
 

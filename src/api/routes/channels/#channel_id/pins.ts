@@ -8,9 +8,9 @@ import {
 	Message,
 	MessageUpdateEvent,
 	DiscordApiErrors,
-} from "@fosscord/util";
+} from "@greektube/util";
 import { Router, Request, Response } from "express";
-import { route } from "@fosscord/api";
+import { route } from "@greektube/api";
 
 const router: Router = Router();
 

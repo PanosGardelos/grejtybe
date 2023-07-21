@@ -1,6 +1,6 @@
 
 
-import { ChannelPermissionOverwriteType, ChannelType } from "@fosscord/util";
+import { ChannelPermissionOverwriteType, ChannelType } from "@greektube/util";
 
 export interface ChannelModifySchema {
 	/**

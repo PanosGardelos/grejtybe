@@ -1,6 +1,6 @@
 
 
-import { getIpAdress, route, verifyCaptcha } from "@fosscord/api";
+import { getIpAdress, route, verifyCaptcha } from "@greektube/api";
 import {
 	adjustEmail,
 	Config,
@@ -10,7 +10,7 @@ import {
 	LoginSchema,
 	User,
 	WebAuthn,
-} from "@fosscord/util";
+} from "@greektube/util";
 import bcrypt from "bcrypt";
 import crypto from "crypto";
 import { Request, Response, Router } from "express";

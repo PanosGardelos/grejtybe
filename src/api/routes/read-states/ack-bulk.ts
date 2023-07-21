@@ -1,8 +1,8 @@
 
 
 import { Router, Request, Response } from "express";
-import { route } from "@fosscord/api";
-import { AckBulkSchema, ReadState } from "@fosscord/util";
+import { route } from "@greektube/api";
+import { AckBulkSchema, ReadState } from "@greektube/util";
 const router = Router();
 
 router.post(

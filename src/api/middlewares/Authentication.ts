@@ -2,7 +2,7 @@
 
 import { NextFunction, Request, Response } from "express";
 import { HTTPError } from "lambert-server";
-import { checkToken, Config, Rights } from "@fosscord/util";
+import { checkToken, Config, Rights } from "@greektube/util";
 import * as Sentry from "@sentry/node";
 
 export const NO_AUTHORIZATION_ROUTES = [

@@ -9,8 +9,8 @@ import {
 	InviteDeleteEvent,
 	User,
 	PublicInviteRelation,
-} from "@fosscord/util";
-import { route } from "@fosscord/api";
+} from "@greektube/util";
+import { route } from "@greektube/api";
 import { HTTPError } from "lambert-server";
 
 const router: Router = Router();

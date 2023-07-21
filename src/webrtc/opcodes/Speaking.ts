@@ -1,6 +1,6 @@
 
 
-import { Payload, Send, WebSocket } from "@fosscord/gateway";
+import { Payload, Send, WebSocket } from "@greektube/gateway";
 import { getClients, VoiceOPCodes } from "../util";
 
 // {"speaking":1,"delay":5,"ssrc":2805246727}

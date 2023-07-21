@@ -1,8 +1,8 @@
 
 
 import { Router, Request, Response } from "express";
-import { Member, User } from "@fosscord/util";
-import { route } from "@fosscord/api";
+import { Member, User } from "@greektube/util";
+import { route } from "@greektube/api";
 import bcrypt from "bcrypt";
 import { HTTPError } from "lambert-server";
 

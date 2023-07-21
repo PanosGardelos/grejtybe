@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.snowflakeBasedInvite = exports.random = void 0;
 const tslib_1 = require("tslib");
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 const crypto_1 = tslib_1.__importDefault(require("crypto"));
 // TODO: 'random'? seriously? who named this?
 // And why is this even here? Just use cryto.randomBytes?

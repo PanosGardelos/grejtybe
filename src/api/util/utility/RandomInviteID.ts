@@ -1,6 +1,6 @@
 
 
-import { Snowflake } from "@fosscord/util";
+import { Snowflake } from "@greektube/util";
 import crypto from "crypto";
 
 // TODO: 'random'? seriously? who named this?

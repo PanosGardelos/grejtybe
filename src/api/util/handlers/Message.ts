@@ -25,12 +25,12 @@ import {
 	Sticker,
 	MessageCreateSchema,
 	EmbedCache, MessageOptions,
-} from "@fosscord/util";
+} from "@greektube/util";
 import { HTTPError } from "lambert-server";
 import { In } from "typeorm";
-import { EmbedHandlers } from "@fosscord/api";
+import { EmbedHandlers } from "@greektube/api";
 import * as Sentry from "@sentry/node";
-import { MessageInterceptResult } from "@fosscord/util/message_interceptors/IMessageInterceptor";
+import { MessageInterceptResult } from "@greektube/util/message_interceptors/IMessageInterceptor";
 import { PluralCommandInterceptor } from "../../../util/message_interceptors/plural_tooling/PluralCommandInterceptor";
 const allow_empty = false;
 // TODO: check webhook, application, system author, stickers

@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ErrorHandler = void 0;
 const lambert_server_1 = require("lambert-server");
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 const EntityNotFoundErrorRegex = /"(\w+)"/;
 function ErrorHandler(error, req, res, next) {
     if (!error)

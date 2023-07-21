@@ -1,6 +1,6 @@
 
 
-export * from "@fosscord/api";
-export * from "@fosscord/util";
-export * from "@fosscord/gateway";
-export * from "@fosscord/cdn";
+export * from "@greektube/api";
+export * from "@greektube/util";
+export * from "@greektube/gateway";
+export * from "@greektube/cdn";

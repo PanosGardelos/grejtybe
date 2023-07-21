@@ -4,7 +4,7 @@ import {
     MessageCreateEvent, MessageDeleteEvent, MessageFlags,
     MessageInterceptorContext,
     MessageInterceptResult, MessageTypes
-} from "@fosscord/util";
+} from "@greektube/util";
 
 export class PluralCommandInterceptor implements IMessageInterceptor {
     async execute(ctx: MessageInterceptorContext): Promise<MessageInterceptResult> {
