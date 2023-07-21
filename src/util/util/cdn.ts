@@ -20,7 +20,7 @@ export async function uploadFile(
 	});
 
 	const response = await fetch(
-		`${Config.get().cdn.endpointPrivate || "http://localhost:3001"}${path}`,
+		`${Config.get().cdn.endpointPrivate || "http://localhost:10000"}${path}`,
 		{
 			headers: {
 				signature: Config.get().security.requestSignature,
@@ -59,7 +59,7 @@ export async function handleFile(
 
 export async function deleteFile(path: string) {
 	const response = await fetch(
-		`${Config.get().cdn.endpointPrivate || "http://localhost:3001"}${path}`,
+		`${Config.get().cdn.endpointPrivate || "http://localhost:10000"}${path}`,
 		{
 			headers: {
 				signature: Config.get().security.requestSignature,

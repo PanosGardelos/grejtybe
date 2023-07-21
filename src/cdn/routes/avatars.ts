@@ -47,7 +47,7 @@ router.post(
 
 		const path = `avatars/${user_id}/${hash}`;
 		const endpoint =
-			Config.get().cdn.endpointPublic || "http://localhost:3001";
+			Config.get().cdn.endpointPublic || "http://localhost:10000";
 
 		await storage.set(path, buffer);
 

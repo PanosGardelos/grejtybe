@@ -41,7 +41,7 @@ router.post("/:user_id", multer_1.multer.single("file"), async (req, res) => {
     if (ANIMATED_MIME_TYPES.includes(type.mime))
         hash = `a_${hash}`; // animated icons have a_ infront of the hash
     const path = `avatars/${user_id}/${hash}`;
-    const endpoint = util_1.Config.get().cdn.endpointPublic || "http://localhost:3001";
+    const endpoint = util_1.Config.get().cdn.endpointPublic || "http://localhost:10000";
     await Storage_1.storage.set(path, buffer);
     return res.json({
         id: hash,

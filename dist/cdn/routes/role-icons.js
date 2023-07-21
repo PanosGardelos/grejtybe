@@ -37,7 +37,7 @@ router.post("/:role_id", multer_1.multer.single("file"), async (req, res) => {
     if (!type || !ALLOWED_MIME_TYPES.includes(type.mime))
         throw new lambert_server_1.HTTPError("Invalid file type");
     const path = `role-icons/${role_id}/${hash}.png`;
-    const endpoint = util_1.Config.get().cdn.endpointPublic || "http://localhost:3001";
+    const endpoint = util_1.Config.get().cdn.endpointPublic || "http://localhost:10000";
     await Storage_1.storage.set(path, buffer);
     return res.json({
         id: hash,
