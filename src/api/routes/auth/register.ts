@@ -10,14 +10,14 @@ import {
 	adjustEmail,
 	RegisterSchema,
 	ValidRegistrationToken,
-} from "@fosscord/util";
+} from "@greektube/util";
 import {
 	route,
 	getIpAdress,
 	IPAnalysis,
 	isProxy,
 	verifyCaptcha,
-} from "@fosscord/api";
+} from "@greektube/api";
 import bcrypt from "bcrypt";
 import { HTTPError } from "lambert-server";
 import { MoreThan } from "typeorm";

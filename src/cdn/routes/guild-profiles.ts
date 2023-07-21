@@ -1,6 +1,6 @@
 
 
-import { Config, Snowflake } from "@fosscord/util";
+import { Config, Snowflake } from "@greektube/util";
 import crypto from "crypto";
 import { Request, Response, Router } from "express";
 import FileType from "file-type";

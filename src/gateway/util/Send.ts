@@ -1,10 +1,10 @@
 
 
-import { Payload, WebSocket } from "@fosscord/gateway";
+import { Payload, WebSocket } from "@greektube/gateway";
 import fs from "fs/promises";
 import path from "path";
 
-import type { ErlpackType } from "@fosscord/util";
+import type { ErlpackType } from "@greektube/util";
 let erlpack: ErlpackType | null = null;
 try {
 	erlpack = require("erlpack") as ErlpackType;

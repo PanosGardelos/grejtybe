@@ -1,6 +1,6 @@
 
 
-import { Payload, WebSocket } from "@fosscord/gateway";
+import { Payload, WebSocket } from "@greektube/gateway";
 import { VoiceOPCodes } from "../util";
 import { onBackendVersion } from "./BackendVersion";
 import { onHeartbeat } from "./Heartbeat";

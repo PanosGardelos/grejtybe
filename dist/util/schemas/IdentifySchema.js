@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.IdentifySchema = void 0;
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 // TODO: Need a way to allow camalCase and pascal_case without just duplicating the schema
 exports.IdentifySchema = {
     token: String,

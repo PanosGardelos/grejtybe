@@ -1,6 +1,6 @@
 
 
-import { route } from "@fosscord/api";
+import { route } from "@greektube/api";
 import {
 	generateToken,
 	SecurityKey,
@@ -8,7 +8,7 @@ import {
 	verifyWebAuthnToken,
 	WebAuthn,
 	WebAuthnTotpSchema,
-} from "@fosscord/util";
+} from "@greektube/util";
 import { Request, Response, Router } from "express";
 import { ExpectedAssertionResult } from "fido2-lib";
 import { HTTPError } from "lambert-server";

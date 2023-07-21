@@ -1,6 +1,6 @@
 
 
-import { route } from "@fosscord/api";
+import { route } from "@greektube/api";
 import {
 	emitEvent,
 	GuildMemberUpdateEvent,
@@ -8,7 +8,7 @@ import {
 	Member,
 	MemberChangeProfileSchema,
 	OrmUtils,
-} from "@fosscord/util";
+} from "@greektube/util";
 import { Request, Response, Router } from "express";
 
 const router = Router();

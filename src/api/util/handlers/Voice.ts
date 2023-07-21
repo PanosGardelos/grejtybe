@@ -1,6 +1,6 @@
 
 
-import { Config } from "@fosscord/util";
+import { Config } from "@greektube/util";
 import { distanceBetweenLocations, IPAnalysis } from "../utility/ipAddress";
 
 export async function getVoiceRegions(ipAddress: string, vip: boolean) {

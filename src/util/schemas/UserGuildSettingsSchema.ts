@@ -1,6 +1,6 @@
 
 
-import { UserGuildSettings, ChannelOverride } from "@fosscord/util";
+import { UserGuildSettings, ChannelOverride } from "@greektube/util";
 
 // This sucks. I would use a DeepPartial, my own or typeorms, but they both generate inncorect schema
 export interface UserGuildSettingsSchema

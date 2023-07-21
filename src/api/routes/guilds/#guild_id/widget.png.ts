@@ -3,9 +3,9 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
 import { Request, Response, Router } from "express";
-import { Guild } from "@fosscord/util";
+import { Guild } from "@greektube/util";
 import { HTTPError } from "lambert-server";
-import { route } from "@fosscord/api";
+import { route } from "@greektube/api";
 import fs from "fs";
 import path from "path";
 

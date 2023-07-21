@@ -2,7 +2,7 @@
 
 import { Request } from "express";
 import { ntob } from "./Base64";
-import { FieldErrors } from "@fosscord/util";
+import { FieldErrors } from "@greektube/util";
 
 export function checkLength(
 	str: string,

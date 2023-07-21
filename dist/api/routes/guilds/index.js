@@ -2,8 +2,8 @@
 
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = require("express");
-const util_1 = require("@fosscord/util");
-const api_1 = require("@fosscord/api");
+const util_1 = require("@greektube/util");
+const api_1 = require("@greektube/api");
 const router = (0, express_1.Router)();
 //TODO: create default channel
 router.post("/", (0, api_1.route)({ body: "GuildCreateSchema", right: "CREATE_GUILDS" }), async (req, res) => {

@@ -7,9 +7,9 @@ import {
 	emitEvent,
 	ChannelModifySchema,
 	ChannelReorderSchema,
-} from "@fosscord/util";
+} from "@greektube/util";
 import { HTTPError } from "lambert-server";
-import { route } from "@fosscord/api";
+import { route } from "@greektube/api";
 const router = Router();
 
 router.get("/", route({}), async (req: Request, res: Response) => {

@@ -5,7 +5,7 @@ import fs from "fs";
 import path from "path";
 import fetch, { Response as FetchResponse } from "node-fetch";
 import ProxyAgent from "proxy-agent";
-import { Config } from "@fosscord/util";
+import { Config } from "@greektube/util";
 
 const ASSET_FOLDER_PATH = path.join(__dirname, "..", "..", "..", "assets");
 

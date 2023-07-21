@@ -2,9 +2,9 @@
 
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = require("express");
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 const lambert_server_1 = require("lambert-server");
-const api_1 = require("@fosscord/api");
+const api_1 = require("@greektube/api");
 const router = (0, express_1.Router)();
 exports.default = router;
 // should users be able to bulk delete messages or only bots? ANSWER: all users

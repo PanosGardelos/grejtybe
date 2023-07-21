@@ -13,7 +13,7 @@ import {
 	Permissions,
 	RightResolvable,
 	Rights,
-} from "@fosscord/util";
+} from "@greektube/util";
 import { NextFunction, Request, Response } from "express";
 import { AnyValidateFunction } from "ajv/dist/core";
 

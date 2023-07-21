@@ -9,9 +9,9 @@ import {
 	Config,
 	Member,
 	GuildTemplateCreateSchema,
-} from "@fosscord/util";
-import { route } from "@fosscord/api";
-import { DiscordApiErrors } from "@fosscord/util";
+} from "@greektube/util";
+import { route } from "@greektube/api";
+import { DiscordApiErrors } from "@greektube/util";
 import fetch from "node-fetch";
 const router: Router = Router();
 

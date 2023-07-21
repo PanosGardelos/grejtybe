@@ -1,6 +1,6 @@
 
 
-import { WebSocket } from "@fosscord/gateway";
+import { WebSocket } from "@greektube/gateway";
 import {
 	emitEvent,
 	PresenceUpdateEvent,
@@ -8,7 +8,7 @@ import {
 	Session,
 	SessionsReplace,
 	User,
-} from "@fosscord/util";
+} from "@greektube/util";
 
 export async function Close(this: WebSocket, code: number, reason: Buffer) {
 	console.log("[WebSocket] closed", code, reason.toString());

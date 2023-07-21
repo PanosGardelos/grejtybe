@@ -3,9 +3,9 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = require("express");
 const lambert_server_1 = require("lambert-server");
-const api_1 = require("@fosscord/api");
-const api_2 = require("@fosscord/api");
-const util_1 = require("@fosscord/util");
+const api_1 = require("@greektube/api");
+const api_2 = require("@greektube/api");
+const util_1 = require("@greektube/util");
 const messages_1 = require("./messages");
 const router = (0, express_1.Router)();
 router.post("/", (0, api_1.route)({

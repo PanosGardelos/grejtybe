@@ -1,6 +1,6 @@
 
 
-import { CLOSECODES, Payload, WebSocket } from "@fosscord/gateway";
+import { CLOSECODES, Payload, WebSocket } from "@greektube/gateway";
 import { Tuple } from "lambert-server";
 import OPCodeHandlers from "../opcodes";
 import { VoiceOPCodes } from "../util";

@@ -12,9 +12,9 @@ import {
 	Member,
 	GuildUpdateSchema,
 	FosscordApiErrors,
-} from "@fosscord/util";
+} from "@greektube/util";
 import { HTTPError } from "lambert-server";
-import { route } from "@fosscord/api";
+import { route } from "@greektube/api";
 
 const router = Router();
 

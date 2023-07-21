@@ -2,11 +2,11 @@
 
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.setupListener = exports.handlePresenceUpdate = void 0;
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 const Constants_1 = require("../util/Constants");
 const Send_1 = require("../util/Send");
 require("missing-native-js-functions");
-const util_2 = require("@fosscord/util");
+const util_2 = require("@greektube/util");
 // TODO: close connection on Invalidated Token
 // TODO: check intent
 // TODO: Guild Member Update is sent for current-user updates regardless of whether the GUILD_MEMBERS intent is set.

@@ -1,6 +1,6 @@
 
 
-import { WebSocket } from "@fosscord/gateway";
+import { WebSocket } from "@greektube/gateway";
 import { setHeartbeat } from "../util/Heartbeat";
 import { Send } from "../util/Send";
 

@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.route = void 0;
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 function route(opts) {
     let validate;
     if (opts.body) {

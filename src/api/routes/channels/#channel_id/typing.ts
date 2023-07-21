@@ -1,7 +1,7 @@
 
 
-import { Channel, emitEvent, Member, TypingStartEvent } from "@fosscord/util";
-import { route } from "@fosscord/api";
+import { Channel, emitEvent, Member, TypingStartEvent } from "@greektube/util";
+import { route } from "@greektube/api";
 import { Router, Request, Response } from "express";
 
 const router: Router = Router();

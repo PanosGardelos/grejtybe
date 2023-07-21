@@ -1,6 +1,6 @@
 
 
-import { WebSocket } from "@fosscord/gateway";
+import { WebSocket } from "@greektube/gateway";
 import MediaServer, {
 	IncomingStream,
 	OutgoingStream,

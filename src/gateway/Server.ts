@@ -9,7 +9,7 @@ import {
 	initDatabase,
 	initEvent,
 	Sentry,
-} from "@fosscord/util";
+} from "@greektube/util";
 import ws from "ws";
 import { Connection } from "./events/Connection";
 import http from "http";

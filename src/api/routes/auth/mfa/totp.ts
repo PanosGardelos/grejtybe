@@ -1,8 +1,8 @@
 
 
 import { Router, Request, Response } from "express";
-import { route } from "@fosscord/api";
-import { BackupCode, generateToken, User, TotpSchema } from "@fosscord/util";
+import { route } from "@greektube/api";
+import { BackupCode, generateToken, User, TotpSchema } from "@greektube/util";
 import { verifyToken } from "node-2fa";
 import { HTTPError } from "lambert-server";
 const router = Router();

@@ -2,14 +2,14 @@
 
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.onIdentify = void 0;
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 const Send_1 = require("../util/Send");
 const Constants_1 = require("../util/Constants");
 const listener_1 = require("../listener/listener");
 // import experiments from "./experiments.json";
 const experiments = [];
 const instanceOf_1 = require("./instanceOf");
-const util_2 = require("@fosscord/util");
+const util_2 = require("@greektube/util");
 // TODO: user sharding
 // TODO: check privileged intents, if defined in the config
 // TODO: check if already identified

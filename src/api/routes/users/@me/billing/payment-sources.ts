@@ -1,7 +1,7 @@
 
 
 import { Router, Response, Request } from "express";
-import { route } from "@fosscord/api";
+import { route } from "@greektube/api";
 
 const router = Router();
 

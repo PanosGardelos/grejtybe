@@ -1,8 +1,8 @@
 
 
-import { Guild } from "@fosscord/util";
+import { Guild } from "@greektube/util";
 import { Request, Response, Router } from "express";
-import { getVoiceRegions, route, getIpAdress } from "@fosscord/api";
+import { getVoiceRegions, route, getIpAdress } from "@greektube/api";
 
 const router = Router();
 

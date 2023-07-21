@@ -1,6 +1,6 @@
 
 
-import { RelationshipType } from "@fosscord/util";
+import { RelationshipType } from "@greektube/util";
 
 export interface RelationshipPutSchema {
 	type?: RelationshipType;

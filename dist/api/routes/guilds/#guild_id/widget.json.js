@@ -2,9 +2,9 @@
 
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = require("express");
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 const lambert_server_1 = require("lambert-server");
-const api_1 = require("@fosscord/api");
+const api_1 = require("@greektube/api");
 const router = (0, express_1.Router)();
 // Undocumented API notes:
 // An invite is created for the widget_channel_id on request (only if an existing one created by the widget doesn't already exist)

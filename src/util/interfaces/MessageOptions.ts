@@ -1,4 +1,4 @@
-import { Attachment, Embed, MessageCreateSchema, MessageType } from "@fosscord/util*";
+import { Attachment, Embed, MessageCreateSchema, MessageType } from "@greektube/util*";
 
 export interface MessageOptions extends MessageCreateSchema {
     id?: string;

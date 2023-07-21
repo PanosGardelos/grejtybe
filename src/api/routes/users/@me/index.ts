@@ -12,8 +12,8 @@ import {
 	Config,
 	UserModifySchema,
 	generateToken,
-} from "@fosscord/util";
-import { route } from "@fosscord/api";
+} from "@greektube/util";
+import { route } from "@greektube/api";
 import bcrypt from "bcrypt";
 
 const router: Router = Router();
@@ -56,7 +56,7 @@ router.patch(
 			if (user.data?.hash) {
 				const same_password = await bcrypt.compare(
 					body.password,
-					user.data.hash || "",
+					user.data.hash || "data",
 				);
 				if (!same_password) {
 					throw FieldErrors({

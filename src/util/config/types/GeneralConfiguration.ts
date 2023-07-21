@@ -1,6 +1,6 @@
 
 
-import { Snowflake } from "@fosscord/util";
+import { Snowflake } from "@greektube/util";
 
 export class GeneralConfiguration {
 	instanceName: string = "Fosscord Instance";

@@ -3,8 +3,8 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 
 import { Request, Response, Router } from "express";
-import { route } from "@fosscord/api";
-import { getPermission, FieldErrors, Message, Channel } from "@fosscord/util";
+import { route } from "@greektube/api";
+import { getPermission, FieldErrors, Message, Channel } from "@greektube/util";
 import { HTTPError } from "lambert-server";
 import { FindManyOptions, In, Like } from "typeorm";
 

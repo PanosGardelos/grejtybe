@@ -9,9 +9,9 @@ import {
 	Recipient,
 	handleFile,
 	ChannelModifySchema,
-} from "@fosscord/util";
+} from "@greektube/util";
 import { Request, Response, Router } from "express";
-import { route } from "@fosscord/api";
+import { route } from "@greektube/api";
 
 const router: Router = Router();
 // TODO: delete channel

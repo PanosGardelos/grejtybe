@@ -1,7 +1,7 @@
 
 
 import { HTTPError } from "lambert-server";
-import { route } from "@fosscord/api";
+import { route } from "@greektube/api";
 import { isTextChannel } from "./messages";
 import { FindManyOptions, Between, Not, FindOperator } from "typeorm";
 import {
@@ -12,7 +12,7 @@ import {
 	Message,
 	MessageDeleteBulkEvent,
 	PurgeSchema,
-} from "@fosscord/util";
+} from "@greektube/util";
 import { Router, Response, Request } from "express";
 
 const router: Router = Router();

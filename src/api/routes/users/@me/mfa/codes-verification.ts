@@ -1,14 +1,14 @@
 
 
 import { Router, Request, Response } from "express";
-import { route } from "@fosscord/api";
+import { route } from "@greektube/api";
 import {
 	BackupCode,
 	generateMfaBackupCodes,
 	User,
 	CodesVerificationSchema,
 	DiscordApiErrors,
-} from "@fosscord/util";
+} from "@greektube/util";
 
 const router = Router();
 

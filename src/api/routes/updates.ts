@@ -1,8 +1,8 @@
 
 
 import { Router, Response, Request } from "express";
-import { route } from "@fosscord/api";
-import { FieldErrors, Release } from "@fosscord/util";
+import { route } from "@greektube/api";
+import { FieldErrors, Release } from "@greektube/util";
 
 const router = Router();
 

@@ -4,12 +4,12 @@ process.on("unhandledRejection", console.error);
 process.on("uncaughtException", console.error);
 
 import http from "http";
-import * as Api from "@fosscord/api";
-import * as Gateway from "@fosscord/gateway";
-import { CDNServer } from "@fosscord/cdn";
+import * as Api from "@greektube/api";
+import * as Gateway from "@greektube/gateway";
+import { CDNServer } from "@greektube/cdn";
 import express from "express";
 import { green, bold } from "picocolors";
-import { Config, initDatabase, Sentry } from "@fosscord/util";
+import { Config, initDatabase, Sentry } from "@greektube/util";
 
 const app = express();
 const server = http.createServer();

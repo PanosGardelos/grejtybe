@@ -1,9 +1,9 @@
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 const express_1 = require("express");
-const api_1 = require("@fosscord/api");
+const api_1 = require("@greektube/api");
 const router = (0, express_1.Router)();
 const options = {
     test: {

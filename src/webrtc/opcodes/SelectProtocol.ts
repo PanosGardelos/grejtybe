@@ -1,8 +1,8 @@
 
 
-import { Payload, Send, WebSocket } from "@fosscord/gateway";
-import { SelectProtocolSchema, validateSchema } from "@fosscord/util";
-import { endpoint, PublicIP, VoiceOPCodes } from "@fosscord/webrtc";
+import { Payload, Send, WebSocket } from "@greektube/gateway";
+import { SelectProtocolSchema, validateSchema } from "@greektube/util";
+import { endpoint, PublicIP, VoiceOPCodes } from "@greektube/webrtc";
 import SemanticSDP, { MediaInfo, SDPInfo } from "semantic-sdp";
 
 export async function onSelectProtocol(this: WebSocket, payload: Payload) {

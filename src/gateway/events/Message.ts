@@ -1,10 +1,10 @@
 
 
-import { WebSocket, Payload, CLOSECODES, OPCODES } from "@fosscord/gateway";
+import { WebSocket, Payload, CLOSECODES, OPCODES } from "@greektube/gateway";
 import OPCodeHandlers from "../opcodes";
 import { check } from "../opcodes/instanceOf";
 import WS from "ws";
-import { PayloadSchema, ErlpackType } from "@fosscord/util";
+import { PayloadSchema, ErlpackType } from "@greektube/util";
 import * as Sentry from "@sentry/node";
 import BigIntJson from "json-bigint";
 import path from "path";

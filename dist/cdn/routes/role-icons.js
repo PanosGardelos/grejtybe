@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
 const express_1 = require("express");
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 const Storage_1 = require("../util/Storage");
 const file_type_1 = tslib_1.__importDefault(require("file-type"));
 const lambert_server_1 = require("lambert-server");

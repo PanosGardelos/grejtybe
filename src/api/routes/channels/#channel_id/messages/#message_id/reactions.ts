@@ -14,8 +14,8 @@ import {
 	PartialEmoji,
 	PublicUserProjection,
 	User,
-} from "@fosscord/util";
-import { route } from "@fosscord/api";
+} from "@greektube/util";
+import { route } from "@greektube/api";
 import { Router, Response, Request } from "express";
 import { HTTPError } from "lambert-server";
 import { In } from "typeorm";

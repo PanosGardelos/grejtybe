@@ -1,6 +1,6 @@
 
 
-import { WebSocket } from "@fosscord/gateway";
+import { WebSocket } from "@greektube/gateway";
 import { Send } from "../util/Send";
 
 export async function onResume(this: WebSocket) {

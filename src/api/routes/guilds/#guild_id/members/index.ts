@@ -1,8 +1,8 @@
 
 
 import { Request, Response, Router } from "express";
-import { Member, PublicMemberProjection } from "@fosscord/util";
-import { route } from "@fosscord/api";
+import { Member, PublicMemberProjection } from "@greektube/util";
+import { route } from "@greektube/api";
 import { MoreThan } from "typeorm";
 import { HTTPError } from "lambert-server";
 

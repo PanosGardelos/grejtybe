@@ -1,8 +1,8 @@
 
 
 import { Router, Request, Response } from "express";
-import { route } from "@fosscord/api";
-import { FieldErrors, User, BackupCodesChallengeSchema } from "@fosscord/util";
+import { route } from "@greektube/api";
+import { FieldErrors, User, BackupCodesChallengeSchema } from "@greektube/util";
 import bcrypt from "bcrypt";
 const router = Router();
 

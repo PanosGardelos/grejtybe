@@ -1,6 +1,6 @@
 
 
-import { GuildCreateSchema } from "@fosscord/util";
+import { GuildCreateSchema } from "@greektube/util";
 
 export interface GuildUpdateSchema
 	extends Omit<GuildCreateSchema, "channels" | "name"> {

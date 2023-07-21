@@ -2,8 +2,8 @@
 
 import { Router, Request, Response } from "express";
 import { HTTPError } from "lambert-server";
-import { route } from "@fosscord/api";
-import { random } from "@fosscord/api";
+import { route } from "@greektube/api";
+import { random } from "@greektube/api";
 import {
 	Channel,
 	Invite,
@@ -12,7 +12,7 @@ import {
 	User,
 	Guild,
 	PublicInviteRelation,
-} from "@fosscord/util";
+} from "@greektube/util";
 import { isTextChannel } from "./messages";
 
 const router: Router = Router();

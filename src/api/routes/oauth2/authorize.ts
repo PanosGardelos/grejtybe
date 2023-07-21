@@ -1,7 +1,7 @@
 
 
 import { Router, Request, Response } from "express";
-import { route } from "@fosscord/api";
+import { route } from "@greektube/api";
 import {
 	ApiError,
 	Application,
@@ -11,7 +11,7 @@ import {
 	Member,
 	Permissions,
 	User,
-} from "@fosscord/util";
+} from "@greektube/util";
 const router = Router();
 
 // TODO: scopes, other oauth types

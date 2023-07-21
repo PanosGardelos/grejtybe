@@ -6,7 +6,7 @@ import {
 	Send,
 	setHeartbeat,
 	WebSocket,
-} from "@fosscord/gateway";
+} from "@greektube/gateway";
 import { VoiceOPCodes } from "../util";
 
 export async function onHeartbeat(this: WebSocket, data: Payload) {

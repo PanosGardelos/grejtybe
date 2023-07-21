@@ -1,8 +1,8 @@
 
 
 import { Router, Request, Response } from "express";
-import { route } from "@fosscord/api";
-import { getIpAdress, IPAnalysis } from "@fosscord/api";
+import { route } from "@greektube/api";
+import { getIpAdress, IPAnalysis } from "@greektube/api";
 const router = Router();
 
 router.get("/", route({}), async (req: Request, res: Response) => {

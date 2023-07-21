@@ -1,6 +1,6 @@
 
 
-import { Config, Embed, EmbedType } from "@fosscord/util";
+import { Config, Embed, EmbedType } from "@greektube/util";
 import fetch, { RequestInit } from "node-fetch";
 import * as cheerio from "cheerio";
 import probe from "probe-image-size";

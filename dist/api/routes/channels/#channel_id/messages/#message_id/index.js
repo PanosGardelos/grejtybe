@@ -2,11 +2,11 @@
 
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
-const util_1 = require("@fosscord/util");
+const util_1 = require("@greektube/util");
 const express_1 = require("express");
 const multer_1 = tslib_1.__importDefault(require("multer"));
-const api_1 = require("@fosscord/api");
-const api_2 = require("@fosscord/api");
+const api_1 = require("@greektube/api");
+const api_2 = require("@greektube/api");
 const lambert_server_1 = require("lambert-server");
 const router = (0, express_1.Router)();
 // TODO: message content/embed string length limit

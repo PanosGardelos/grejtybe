@@ -3,8 +3,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 const express_1 = require("express");
-const api_1 = require("@fosscord/api");
-const util_1 = require("@fosscord/util");
+const api_1 = require("@greektube/api");
+const util_1 = require("@greektube/util");
 const lambert_server_1 = require("lambert-server");
 const typeorm_1 = require("typeorm");
 const router = (0, express_1.Router)();

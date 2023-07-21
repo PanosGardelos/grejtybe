@@ -1,10 +1,10 @@
 
 
 import { Request, Response, Router } from "express";
-import { Guild, Template } from "@fosscord/util";
+import { Guild, Template } from "@greektube/util";
 import { HTTPError } from "lambert-server";
-import { route } from "@fosscord/api";
-import { generateCode } from "@fosscord/api";
+import { route } from "@greektube/api";
+import { generateCode } from "@greektube/api";
 
 const router: Router = Router();
 
