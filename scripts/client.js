@@ -81,6 +81,10 @@ const doPatch = (content) => {
 		`:(c.base == 'Discord' ? '${INSTANCE_NAME}' : c.base);`,
 	);
 
+	//Support
+    content = content.replaceAll("https://support.discord.com/", `https://support.${INSTANCE_NAME}.eu.org/`);
+	content = content.replaceAll(/Discord/gi, `https://support.${INSTANCE_NAME}.eu.org/`);
+
 	//server -> guild
 	const serverVariations = [
 		['"Server"', '"Guild"'],
