@@ -15,7 +15,7 @@ const options = {
 router.get("/", (0, api_1.route)(options), (req, res) => {
     const { endpointPublic } = util_1.Config.get().gateway;
     res.json({
-        url: endpointPublic || process.env.GATEWAY || "ws://localhost:3001",
+        url: endpointPublic || process.env.GATEWAY || "ws://localhost:10000",
         shards: 1,
         session_start_limit: {
             total: 1000,

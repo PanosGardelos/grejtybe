@@ -17,7 +17,7 @@ file) {
         contentType: file.mimetype,
         filename: file.originalname,
     });
-    const response = await (0, node_fetch_1.default)(`${Config_1.Config.get().cdn.endpointPrivate || "http://localhost:3001"}${path}`, {
+    const response = await (0, node_fetch_1.default)(`${Config_1.Config.get().cdn.endpointPrivate || "http://localhost:10000"}${path}`, {
         headers: {
             signature: Config_1.Config.get().security.requestSignature,
             ...form.getHeaders(),
@@ -51,7 +51,7 @@ async function handleFile(path, body) {
 }
 exports.handleFile = handleFile;
 async function deleteFile(path) {
-    const response = await (0, node_fetch_1.default)(`${Config_1.Config.get().cdn.endpointPrivate || "http://localhost:3001"}${path}`, {
+    const response = await (0, node_fetch_1.default)(`${Config_1.Config.get().cdn.endpointPrivate || "http://localhost:10000"}${path}`, {
         headers: {
             signature: Config_1.Config.get().security.requestSignature,
         },

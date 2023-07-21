@@ -8,10 +8,10 @@ const router = (0, express_1.Router)();
 router.get("/", (0, api_1.route)({}), async (req, res) => {
     const { cdn, gateway, api } = util_1.Config.get();
     const IdentityForm = {
-        cdn: cdn.endpointPublic || process.env.CDN || "http://localhost:3001",
+        cdn: cdn.endpointPublic || process.env.CDN || "http://localhost:10000",
         gateway: gateway.endpointPublic ||
             process.env.GATEWAY ||
-            "ws://localhost:3001",
+            "ws://localhost:10000",
         defaultApiVersion: api.defaultVersion ?? 9,
         apiEndpoint: api.endpointPublic ?? "/api",
     };

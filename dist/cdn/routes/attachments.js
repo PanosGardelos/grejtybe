@@ -28,7 +28,7 @@ router.post("/:channel_id", multer_1.multer.single("file"), async (req, res) => 
         .replace(/[^a-zA-Z0-9._]+/g, "");
     const id = util_1.Snowflake.generate();
     const path = `attachments/${channel_id}/${id}/${filename}`;
-    const endpoint = util_1.Config.get()?.cdn.endpointPublic || "http://localhost:3001";
+    const endpoint = util_1.Config.get()?.cdn.endpointPublic || "http://localhost:10000";
     await Storage_1.storage.set(path, buffer);
     let width;
     let height;
