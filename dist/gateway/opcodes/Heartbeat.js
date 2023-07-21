@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.onHeartbeat = void 0;
 const Heartbeat_1 = require("../util/Heartbeat");

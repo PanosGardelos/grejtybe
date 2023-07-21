@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 const Heartbeat_1 = require("./Heartbeat");
 const Identify_1 = require("./Identify");

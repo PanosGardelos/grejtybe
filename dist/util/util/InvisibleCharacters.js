@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.InvisibleCharacters = void 0;
 // List from https://invisible-characters.com/

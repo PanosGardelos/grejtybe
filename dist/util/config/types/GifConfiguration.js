@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.GifConfiguration = void 0;
 class GifConfiguration {

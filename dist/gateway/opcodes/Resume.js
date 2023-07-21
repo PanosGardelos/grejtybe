@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.onResume = void 0;
 const Send_1 = require("../util/Send");

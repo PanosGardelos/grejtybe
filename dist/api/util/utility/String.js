@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.generateCode = exports.checkLength = void 0;
 const Base64_1 = require("./Base64");

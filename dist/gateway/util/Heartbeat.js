@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.setHeartbeat = void 0;
 const Constants_1 = require("./Constants");

@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.EmbedHandlers = exports.getMetaDescriptions = exports.getProxyUrl = exports.DEFAULT_FETCH_OPTIONS = void 0;
 const tslib_1 = require("tslib");

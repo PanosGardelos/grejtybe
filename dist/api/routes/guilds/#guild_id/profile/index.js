@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 const api_1 = require("@greektube/api");
 const util_1 = require("@greektube/util");

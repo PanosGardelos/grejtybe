@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CdnConfiguration = void 0;
 const EndpointConfiguration_1 = require("./EndpointConfiguration");

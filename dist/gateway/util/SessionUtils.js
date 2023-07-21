@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.genVoiceToken = exports.genSessionId = void 0;
 function genSessionId() {

@@ -1,1 +1,1 @@
-{"version":3,"file":"ExternalTokensConfiguration.js","sourceRoot":"","sources":["../../../../src/util/config/types/ExternalTokensConfiguration.ts"],"names":[],"mappings":";AAAA;;;;;;;;;;;;;;;;EAgBE;;;AAEF,MAAa,2BAA2B;IACvC,OAAO,GAAkB,IAAI,CAAC;CAC9B;AAFD,kEAEC"}
+{"version":3,"file":"ExternalTokensConfiguration.js","sourceRoot":"","sources":["../../../../src/util/config/types/ExternalTokensConfiguration.ts"],"names":[],"mappings":";;;AAEA,MAAa,2BAA2B;IACvC,OAAO,GAAkB,IAAI,CAAC;CAC9B;AAFD,kEAEC"}

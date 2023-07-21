@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.webauthn1675045120206 = void 0;
 class webauthn1675045120206 {

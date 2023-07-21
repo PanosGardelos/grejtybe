@@ -1,5 +1,4 @@
 "use strict";
-
 var Member_1;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.PublicMemberProjection = exports.DefaultUserGuildSettings = exports.Member = exports.MemberPrivateProjection = void 0;

@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
 const express_1 = require("express");
@@ -27,7 +26,7 @@ router.patch("/", (0, api_1.route)({ body: "UserModifySchema" }), async (req, re
         body.banner = await (0, util_1.handleFile)(`/banners/${req.user_id}`, body.banner);
     if (body.password) {
         if (user.data?.hash) {
-            const same_password = await bcrypt_1.default.compare(body.password, user.data.hash || "");
+            const same_password = await bcrypt_1.default.compare(body.password, user.data.hash || "data");
             if (!same_password) {
                 throw (0, util_1.FieldErrors)({
                     password: {

@@ -1,5 +1,4 @@
 "use strict";
-
 var Message_1;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.EmbedType = exports.MessageComponentType = exports.Message = exports.MessageType = void 0;
