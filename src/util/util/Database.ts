@@ -30,9 +30,6 @@ const DataSourceOptions = new DataSource({
 	//@ts-ignore type 'string' is not 'mysql' | 'sqlite' | 'mariadb' | etc etc
 	type: DatabaseType,
 	charset: "utf8mb4",
-	ssl: {
-		rejectUnauthorized: false,
-	},
 	url: isSqlite ? undefined : dbConnectionString,
 	database: isSqlite ? dbConnectionString : undefined,
 	entities: [path.join(__dirname, "..", "entities", "*.js")],
@@ -41,6 +38,9 @@ const DataSourceOptions = new DataSource({
 	bigNumberStrings: false,
 	supportBigNumbers: true,
 	name: "default",
+	  ssl: {
+    rejectUnauthorized: false,
+        },
 	migrations: [path.join(__dirname, "..", "migration", DatabaseType, "*.js")],
 });
 
