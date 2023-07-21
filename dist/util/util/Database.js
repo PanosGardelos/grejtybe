@@ -27,6 +27,9 @@ const DataSourceOptions = new typeorm_1.DataSource({
     //@ts-ignore type 'string' is not 'mysql' | 'sqlite' | 'mariadb' | etc etc
     type: DatabaseType,
     charset: "utf8mb4",
+    ssl: {
+		rejectUnauthorized: false,
+	},
     url: isSqlite ? undefined : dbConnectionString,
     database: isSqlite ? dbConnectionString : undefined,
     entities: [path_1.default.join(__dirname, "..", "entities", "*.js")],
