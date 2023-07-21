@@ -1,8 +1,7 @@
 "use strict";
-
+/* eslint-disable @typescript-eslint/no-explicit-any */
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
-/* eslint-disable @typescript-eslint/no-explicit-any */
 const express_1 = require("express");
 const util_1 = require("@greektube/util");
 const lambert_server_1 = require("lambert-server");

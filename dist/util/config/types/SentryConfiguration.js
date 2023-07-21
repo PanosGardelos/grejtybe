@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SentryConfiguration = void 0;
 const os_1 = require("os");

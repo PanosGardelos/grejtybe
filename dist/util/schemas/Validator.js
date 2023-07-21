@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.normalizeBody = exports.validateSchema = exports.ajv = void 0;
 const tslib_1 = require("tslib");

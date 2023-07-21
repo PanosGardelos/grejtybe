@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 const lambert_server_1 = require("lambert-server");
 const api_1 = require("@greektube/api");

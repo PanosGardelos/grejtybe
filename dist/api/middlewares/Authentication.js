@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Authentication = exports.API_PREFIX_TRAILING_SLASH = exports.API_PREFIX = exports.NO_AUTHORIZATION_ROUTES = void 0;
 const tslib_1 = require("tslib");

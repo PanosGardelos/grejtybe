@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 require("module-alias/register");
 process.on("uncaughtException", console.error);

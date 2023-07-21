@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.DateOfBirthConfiguration = void 0;
 class DateOfBirthConfiguration {

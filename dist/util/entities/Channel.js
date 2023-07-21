@@ -1,5 +1,4 @@
 "use strict";
-
 var Channel_1;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ChannelPermissionOverwriteType = exports.Channel = exports.ChannelType = void 0;

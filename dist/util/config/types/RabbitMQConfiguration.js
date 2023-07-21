@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.RabbitMQConfiguration = void 0;
 class RabbitMQConfiguration {

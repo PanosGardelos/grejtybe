@@ -1,1 +1,1 @@
-{"version":3,"file":"followers.js","sourceRoot":"","sources":["../../../../../src/api/routes/channels/#channel_id/followers.ts"],"names":[],"mappings":";AAAA;;;;;;;;;;;;;;;;EAgBE;;AAEF,qCAAiC;AACjC,MAAM,MAAM,GAAW,IAAA,gBAAM,GAAE,CAAC;AAChC,QAAQ;AAER,kBAAe,MAAM,CAAC;AAEtB;;;;;;;GAOG"}
+{"version":3,"file":"followers.js","sourceRoot":"","sources":["../../../../../src/api/routes/channels/#channel_id/followers.ts"],"names":[],"mappings":";;AAEA,qCAAiC;AACjC,MAAM,MAAM,GAAW,IAAA,gBAAM,GAAE,CAAC;AAChC,QAAQ;AAER,kBAAe,MAAM,CAAC;AAEtB;;;;;;;GAOG"}

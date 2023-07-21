@@ -1,5 +1,4 @@
 "use strict";
-
 var User_1;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.UserFlags = exports.CUSTOM_USER_FLAG_OFFSET = exports.User = exports.PrivateUserProjection = exports.PublicUserProjection = exports.PrivateUserEnum = exports.PublicUserEnum = void 0;

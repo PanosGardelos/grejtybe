@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.applyParamsToString = exports.ApiError = void 0;
 class ApiError extends Error {

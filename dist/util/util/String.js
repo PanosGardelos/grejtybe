@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.trimSpecial = void 0;
 const Regex_1 = require("./Regex");

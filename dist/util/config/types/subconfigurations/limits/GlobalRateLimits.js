@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.GlobalRateLimit = exports.GlobalRateLimits = void 0;
 class GlobalRateLimits {

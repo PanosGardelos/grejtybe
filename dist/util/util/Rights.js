@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getRights = exports.Rights = void 0;
 const BitField_1 = require("./BitField");

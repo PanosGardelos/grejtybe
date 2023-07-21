@@ -1,8 +1,7 @@
 "use strict";
-
+// import { VoiceOPCodes } from "@greektube/webrtc";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CLOSECODES = exports.OPCODES = void 0;
-// import { VoiceOPCodes } from "@greektube/webrtc";
 var OPCODES;
 (function (OPCODES) {
     OPCODES[OPCODES["Dispatch"] = 0] = "Dispatch";

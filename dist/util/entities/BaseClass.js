@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.BaseClass = exports.PrimaryIdColumn = exports.BaseClassWithoutId = void 0;
 const tslib_1 = require("tslib");

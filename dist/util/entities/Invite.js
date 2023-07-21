@@ -1,5 +1,4 @@
 "use strict";
-
 var Invite_1;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Invite = exports.PublicInviteRelation = void 0;

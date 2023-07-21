@@ -1,1 +1,1 @@
-{"version":3,"file":"TwoFactor.js","sourceRoot":"","sources":["../../../../../../src/util/config/types/subconfigurations/security/TwoFactor.ts"],"names":[],"mappings":";AAAA;;;;;;;;;;;;;;;;EAgBE;;;AAEF,MAAa,sBAAsB;IAClC,mBAAmB,GAAY,IAAI,CAAC;CACpC;AAFD,wDAEC"}
+{"version":3,"file":"TwoFactor.js","sourceRoot":"","sources":["../../../../../../src/util/config/types/subconfigurations/security/TwoFactor.ts"],"names":[],"mappings":";;;AAEA,MAAa,sBAAsB;IAClC,mBAAmB,GAAY,IAAI,CAAC;CACpC;AAFD,wDAEC"}

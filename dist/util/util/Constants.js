@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.WebhookTypes = exports.MembershipStates = exports.DefaultMessageNotifications = exports.FosscordApiErrors = exports.DiscordApiErrors = exports.VerificationLevels = exports.ExplicitContentFilterLevels = exports.Colors = exports.ClientApplicationAssetTypes = exports.ChannelTypes = exports.ActivityTypes = exports.SystemMessageTypes = exports.MessageTypes = exports.WSEvents = exports.PartialTypes = exports.ShardEvents = exports.Events = exports.VoiceOPCodes = exports.OPCodes = exports.VoiceStatus = exports.WsStatus = exports.WSCodes = void 0;
 const ApiError_1 = require("./ApiError");

@@ -1,5 +1,4 @@
 "use strict";
-
 var Guild_1;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Guild = exports.PublicGuildRelations = void 0;

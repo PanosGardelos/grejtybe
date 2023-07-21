@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.onVoiceStateUpdate = void 0;
 const SessionUtils_1 = require("../util/SessionUtils");

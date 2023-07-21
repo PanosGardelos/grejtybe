@@ -1,5 +1,4 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.LoginConfiguration = void 0;
 class LoginConfiguration {
